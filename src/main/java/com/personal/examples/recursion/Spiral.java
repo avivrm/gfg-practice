@@ -1,31 +1,29 @@
 package com.personal.examples.recursion;
 
+/**
+ * Given a 2D array, print it in spiral form. See the following examples.
+ * <pre>
+ * Examples:
+ * Input:
+        1    2   3   4
+        5    6   7   8
+        9   10  11  12
+        13  14  15  16
+Output: 
+1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10 
 
+
+Input:
+        1   2   3   4  5   6
+        7   8   9  10  11  12
+        13  14  15 16  17  18
+Output: 
+1 2 3 4 5 6 12 18 17 16 15 14 13 7 8 9 10 11</pre>
+ * @author jatin
+ *
+ */
 public class Spiral {
 
-	
-										
-	/*public static void main(String[] args) {
-		Spiral spiral = new Spiral();
-		int startRow = 0;
-		int startCol = 0;
-		int endRow = 4;
-		int endCol = 0;
-		spiral.printOriginalArray(spiral.numbers, 5, 1);
-		spiral.printSpiral(spiral.numbers, startRow, startCol, endRow, endCol);
-		
-	}*/
-	
-	private void printOriginalArray(int[][] numbers, int rows, int cols) {
-		for(int i = 0; i < rows; i++) {
-			for(int j = 0; j < cols; j++) {
-				System.out.print(numbers[i][j] + "\t");
-			}
-			System.out.println();
-		}
-	}
-	
-	
 	public void executeSpiral(int[][] numbers) {
 		if(null == numbers || numbers.length == 0) {
 			return;
