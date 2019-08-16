@@ -2,6 +2,8 @@ package com.personal.examples.recursion;
 
 import org.junit.Test;
 
+import com.personal.examples.recursion.Spiral.Spiral;
+
 import junit.framework.TestCase;
 
 public class SpiralTest extends TestCase {

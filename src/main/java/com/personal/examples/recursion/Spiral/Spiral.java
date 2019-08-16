@@ -1,4 +1,4 @@
-package com.personal.examples.recursion;
+package com.personal.examples.recursion.Spiral;
 
 /**
  * Given a 2D array, print it in spiral form. See the following examples.
