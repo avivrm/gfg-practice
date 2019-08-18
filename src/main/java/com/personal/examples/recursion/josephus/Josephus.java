@@ -3,9 +3,6 @@
  */
 package com.personal.examples.recursion.josephus;
 
-import java.util.LinkedList;
-import java.util.List;
-
 /**
  * @author jatin
  * 
