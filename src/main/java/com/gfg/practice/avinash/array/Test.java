@@ -18,8 +18,8 @@ public class Test {
         }*/
 
         /*try{
-            throw new Test1();
-        }catch (Test1 t){
+            throw new GFG();
+        }catch (GFG t){
             System.out.println("in catch");
         }finally {
             System.out.println("In finallu");
