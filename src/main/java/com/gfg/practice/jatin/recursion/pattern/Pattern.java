@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.gfg.practice.jatin.recursion.plusminus.pattern;
+package com.gfg.practice.jatin.recursion.pattern;
 
 import java.util.Arrays;
 

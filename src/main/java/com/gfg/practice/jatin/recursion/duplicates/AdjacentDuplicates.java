@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.gfg.practice.jatin.recursion.adjaent.duplicates;
+package com.gfg.practice.jatin.recursion.duplicates;
 
 import java.util.Arrays;
 

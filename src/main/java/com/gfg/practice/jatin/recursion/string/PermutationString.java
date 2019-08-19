@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.gfg.practice.jatin.recursion.permutation.string;
+package com.gfg.practice.jatin.recursion.string;
 
 import java.util.Set;
 import java.util.TreeSet;

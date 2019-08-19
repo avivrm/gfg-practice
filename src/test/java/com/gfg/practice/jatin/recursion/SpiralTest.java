@@ -1,8 +1,7 @@
 package com.gfg.practice.jatin.recursion;
 
-import org.junit.Test;
-
 import com.gfg.practice.jatin.recursion.Spiral.Spiral;
+import org.junit.Test;
 
 import junit.framework.TestCase;
 
