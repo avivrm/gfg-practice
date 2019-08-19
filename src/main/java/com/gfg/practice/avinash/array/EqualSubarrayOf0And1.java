@@ -1,10 +1,8 @@
-package com.gfg.practice.array;
+package com.gfg.practice.avinash.array;
 
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.IntStream;
 
 public class EqualSubarrayOf0And1 {
     public static void main(String[] args) {

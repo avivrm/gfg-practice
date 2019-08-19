@@ -1,8 +1,6 @@
-package com.gfg.practice.array;
+package com.gfg.practice.avinash.array;
 
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
 public class MajorityElement {
 

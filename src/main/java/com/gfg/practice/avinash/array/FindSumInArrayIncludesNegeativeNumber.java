@@ -1,7 +1,6 @@
-package com.gfg.practice.array;
+package com.gfg.practice.avinash.array;
 
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 public class FindSumInArrayIncludesNegeativeNumber {

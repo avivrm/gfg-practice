@@ -1,7 +1,6 @@
-package com.gfg.practice.knapsack;
+package com.gfg.practice.avinash.knapsack;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 

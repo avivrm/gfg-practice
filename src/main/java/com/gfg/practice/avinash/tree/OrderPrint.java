@@ -1,4 +1,4 @@
-package com.gfg.practice.tree;
+package com.gfg.practice.avinash.tree;
 
 
 

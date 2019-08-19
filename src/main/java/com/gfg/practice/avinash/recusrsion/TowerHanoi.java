@@ -1,4 +1,4 @@
-package com.gfg.practice.recusrsion;
+package com.gfg.practice.avinash.recusrsion;
 
 public class TowerHanoi {
 

@@ -1,4 +1,4 @@
-package com.gfg.practice.matrix;
+package com.gfg.practice.avinash.matrix;
 
 public class PrintSpiral {
     public static void main(String[] args) {

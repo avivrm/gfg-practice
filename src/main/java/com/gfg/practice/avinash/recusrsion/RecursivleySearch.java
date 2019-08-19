@@ -1,4 +1,4 @@
-package com.gfg.practice.recusrsion;
+package com.gfg.practice.avinash.recusrsion;
 
 //Recursive program to linearly search an element in a given array
 public class RecursivleySearch {

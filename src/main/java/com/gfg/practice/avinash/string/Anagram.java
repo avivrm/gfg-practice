@@ -1,4 +1,4 @@
-package com.gfg.practice.string;
+package com.gfg.practice.avinash.string;
 
 import java.util.Arrays;
 

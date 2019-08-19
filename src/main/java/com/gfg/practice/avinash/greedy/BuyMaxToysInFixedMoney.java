@@ -1,4 +1,4 @@
-package com.gfg.practice.greedy;
+package com.gfg.practice.avinash.greedy;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.gfg.practice.array;
+package com.gfg.practice.avinash.array;
 // kadane's algo
 public class LargestContigousSum {
 

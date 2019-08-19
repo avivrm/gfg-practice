@@ -1,9 +1,6 @@
- package com.gfg.practice.array;
+ package com.gfg.practice.avinash.array;
 
-import java.util.Comparator;
-import java.util.TreeSet;
-
-public class SlidingWindow {
+ public class SlidingWindow {
 
     public static void main(String[] args) {
         int[] arr = {8, 5, 10, 7, 9, 4, 15, 12, 90, 13};

@@ -1,4 +1,4 @@
-package com.gfg.practice.array;
+package com.gfg.practice.avinash.array;
 
 public class FindEquillibrium {
     public static void main(String[] args) {

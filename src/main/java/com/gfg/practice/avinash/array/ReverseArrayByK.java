@@ -1,10 +1,4 @@
-package com.gfg.practice.array;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
-import static java.util.Arrays.*;
+package com.gfg.practice.avinash.array;
 
 public class ReverseArrayByK {
 

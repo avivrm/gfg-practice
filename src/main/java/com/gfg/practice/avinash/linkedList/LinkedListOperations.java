@@ -1,4 +1,4 @@
-package com.gfg.practice.linkedList;
+package com.gfg.practice.avinash.linkedList;
 
 class Node{
     int data;

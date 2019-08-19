@@ -1,13 +1,8 @@
-package com.gfg.practice.array;
+package com.gfg.practice.avinash.array;
 
 // trap water
 
 // find sqrt
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 
 // guess the number
 public class TrapRainWater {
