@@ -36,7 +36,8 @@ public class AdjacentDuplicates {
 
 	public static void main(String[] args) {
 		AdjacentDuplicates adjacentDuplicates = new AdjacentDuplicates();
-		adjacentDuplicates.executeAllTestCases(1, "aaaaabbbbbaaaabbbaakajkdjdhddhsd");
+		adjacentDuplicates.executeAllTestCases(3, "aaaaabbbbbcccccdddddeekajkdjdhddhsd", "bcda", "aaaaaaaaabccccc");
+		
 	}
 	
 	public void executeAllTestCases(int t, String... words) {
@@ -54,12 +55,30 @@ public class AdjacentDuplicates {
 			return word;
 		} else {
 			char c = word.charAt(counter);
-			word = removeAdjacentDuplicateCharacter(c, counter+1, word);
+			int endCounter = findLastAdjacentCharacter(c, counter+1, word);
+			if(endCounter-counter >1) {
+				word = removeSubstring(word, counter, endCounter);
+				--counter;
+			}
 			return removeAdjacentDuplicates(word, ++counter);
 		}
 	}
 	
-	public String removeAdjacentDuplicateCharacter(char c, int counter, String word) {
+	private String removeSubstring(String word, int startCounter, int endCounter) {
+		String firstPart = word.substring(0, startCounter);
+		String secondPart = word.substring(endCounter, word.length());
+		return (firstPart.concat(secondPart));
+	}
+	
+	private int findLastAdjacentCharacter(char c, int endCounter, String word) {
+		if(endCounter >= word.length() || word.charAt(endCounter) != c) {
+			return endCounter;
+		} else {
+			return findLastAdjacentCharacter(c, ++endCounter, word);
+		}
+	}
+	
+	/*public String removeAdjacentDuplicateCharacter(char c, int counter, String word) {
 		if(counter >= word.length()) {
 			return word;
 		}
@@ -73,5 +92,5 @@ public class AdjacentDuplicates {
 			
 			return removeAdjacentDuplicateCharacter(c, counter, word);
 		}
-	}
+	}*/
 }
