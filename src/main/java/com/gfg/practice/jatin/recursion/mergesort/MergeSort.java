@@ -62,9 +62,11 @@ public class MergeSort {
 			}
 			i++;
 		}
+		System.out.print("Left Array: \t");
 		Arrays.stream(leftArray).forEach(n -> System.out.print(n + "\t"));
 		System.out.println();
 		
+		System.out.print("Right Array: \t");
 		Arrays.stream(rightArray).forEach(n -> System.out.print(n + "\t"));
 		System.out.println();
 		Arrays.stream(items).forEach(n -> System.out.print(n + "\t"));
